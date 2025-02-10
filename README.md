@@ -1,10 +1,87 @@
-# Disclaimer
+📞 Contact
 
-This project includes code that is related to encryption. By using this code, you acknowledge the following:
+> [Termux guides if you run on mobile](https://github.com/MeoMunDep/Guides-for-using-my-script-on-termux.)
 
-- The encryption methods and algorithms implemented here are provided for educational purposes only. 
-- The author does not take any responsibility for any misuse or unintended consequences that may arise from the use of this code.
-- It is your responsibility to ensure that you understand the implications of using encryption and to comply with all applicable laws and regulations in your jurisdiction.
-- Always conduct thorough testing and validation of any encryption code before deploying it in a production environment.
 
-Use this code at your own risk.
+> If you encounter any issues or have questions, feel free to reach out:
+
+- Contact: [Link](t.me/MeoMunDep)
+- Group: [Link](t.me/KeoAirDropFreeNe)
+- Channel: [Link](t.me/KeoAirDropFreeNee)
+
+> Help me with your referral [Link](https://pipecdn.app/signup?ref=aWFtYWtpZD)
+
+## 🚀 Getting Started
+
+To get started with the bot, follow these steps:
+
+0. **Dowload NodeJS to run the bot**
+
+- **Node.js** (Version: `22.11.0`)
+- **npm** (Version: `10.9.0`)
+
+Download Node.js and npm here: [Download Link](https://t.me/KeoAirDropFreeNe/257/1462).
+
+-> Double click on `setup.bat` for windows or `setup.sh` for linux/mac if you want to run automatically, remember to fill all the necessary data.
+
+1. **Install Dependencies and Modules:**
+
+   ```
+   npm i user-agents axios colors p-limit https-proxy-agent socks-proxy-agent crypto ws uuid
+   ```
+
+2. **Prepare Configuration Files:**
+
+   > You'll need to set up a few configuration files for the bot to work properly.
+
+## 📁 Configuration Files
+
+### 1. `configs.json` 📜 - Adjust configuration
+
+```json
+{
+  "timeZone": "en-US",
+  "delayEachAccount": [5, 8],
+  "timeToRestartAllAccounts": 300,
+  "howManyAccountsRunInOneTime": 100,
+  "referralCode": "aWFtYWtpZD",
+  "passwordsForCreateAccounts": "123456789",
+  "howManyAccountsRunInOneTimeWhenCreateAccounts": 100,
+  "isSkipInvalidProxy": false,
+  "rotateProxyForAllAccounts": true,
+  "proxyRotationInterval": 2
+}
+```
+
+### 2. `emails.txt` 🗂️ - Your emails
+
+```txt
+xxx@gmail.com
+xxx@gmail.com
+xxx@gmail.com
+```
+
+### 3. `passwords.txt` 💼 - Your passwords
+
+```txt 
+passwords...
+passwords...
+passwords...
+```
+
+### 4. `proxies.txt` 🌐 - Proxy is an option. If you have one, fill it in; otherwise, leave it blank.
+
+```txt
+http://user:password@host:port
+https://user:password@host:port
+socks4://user:password@host:port
+socks5://user:password@host:port
+```
+
+💡 Usage:
+
+> You need to `cd` to the file after extract it.
+> To run the farm bot, use the following command: `node meomundep`
+> To run the create accounts bot, use the following command: `node meomundep_create_accounts` // create_accounts.js is for referrals to the main account.
+
+🎇Enjoy!
