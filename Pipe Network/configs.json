@@ -1,12 +1,13 @@
 {
   "timeZone": "en-US",
   "delayEachAccount": [5, 8],
+  "proxyRotationInterval": 2,
+  "isSkipInvalidProxy": false,
   "timeToRestartAllAccounts": 300,
+  "rotateProxyForAllAccounts": true,
   "howManyAccountsRunInOneTime": 100,
+  
   "referralCode": "aWFtYWtpZD",
   "passwordsForCreateAccounts": "123456789",
-  "howManyAccountsRunInOneTimeWhenCreateAccounts": 100,
-  "isSkipInvalidProxy": false,
-  "rotateProxyForAllAccounts": true,
-  "proxyRotationInterval": 2
+  "howManyAccountsRunInOneTimeWhenCreateAccounts": 100
 }
