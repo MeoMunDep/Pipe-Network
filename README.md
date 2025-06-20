@@ -1,6 +1,6 @@
 📞 Contact
 
-> [Termux guides if you run on mobile](https://github.com/MeoMunDep/Guides-for-using-my-script-on-termux.)
+> [Termux guides if you run on mobile](https://github.com/MeoMunDep/Guides-for-using-my-script-on-termux)
 
 
 > If you encounter any issues or have questions, feel free to reach out:
@@ -27,7 +27,7 @@ Download Node.js and npm here: [Download Link](https://t.me/KeoAirDropFreeNe/257
 1. **Install Dependencies and Modules:**
 
    ```
-   npm i user-agents axios colors p-limit https-proxy-agent socks-proxy-agent crypto ws uuid
+npm install --no-audit --no-fund --prefer-offline --force user-agents axios meo-forkcy-colors meo-forkcy-utils https-proxy-agent socks-proxy-agent 
    ```
 
 2. **Prepare Configuration Files:**
@@ -40,7 +40,6 @@ Download Node.js and npm here: [Download Link](https://t.me/KeoAirDropFreeNe/257
 
 ```json
 {
-  "timeZone": "en-US",
   "delayEachAccount": [5, 8],
   "timeToRestartAllAccounts": 300,
   "howManyAccountsRunInOneTime": 100,
@@ -82,6 +81,5 @@ socks5://user:password@host:port
 
 > You need to `cd` to the file after extract it.
 > To run the farm bot, use the following command: `node meomundep`
-> To run the create accounts bot, use the following command: `node meomundep_create_accounts` // create_accounts.js is for referrals to the main account.
 
 🎇Enjoy!
